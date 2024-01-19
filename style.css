@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #475c6c;
+}
+
+.icon {
+  font-size: 100px;
+  color: yellow;
+  animation: 3s iconanim linear infinite;
+  transform: rotate(45deg);
+}
+
+@keyframes iconanim {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
